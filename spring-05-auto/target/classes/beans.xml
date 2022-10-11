@@ -10,6 +10,7 @@
 
     <bean id="cat111" class="com.pojo.Cat"/>
     <bean id="dog" class="com.pojo.Dog"/>
+    <bean id="dog2" class="com.pojo.Dog"/>
 
     <bean id="people" class="com.pojo.People">
     </bean>

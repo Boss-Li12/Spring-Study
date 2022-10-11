@@ -7,7 +7,7 @@ public class Mytest {
 
     public static void main(String[] args) {
         ApplicationContext classPathXmlApplicationContext = new ClassPathXmlApplicationContext("beans.xml");
-        UsetT user =(UsetT) classPathXmlApplicationContext.getBean("u2");
+        UsetT user =(UsetT) classPathXmlApplicationContext.getBean("usert");
         System.out.println(user.toString());
 
     }
