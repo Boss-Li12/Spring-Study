@@ -12,4 +12,12 @@ public class UserMapperIml2 extends SqlSessionDaoSupport implements UserMapper {
         UserMapper mapper = sqlSession.getMapper(UserMapper.class);
         return mapper.selectUser();
     }
+
+    public void addUser(User user) {
+        SqlSession sqlSession = getSqlSession();
+        UserMapper mapper = sqlSession.getMapper(UserMapper.class);
+        mapper.addUser(user);
+    }
+
+
 }

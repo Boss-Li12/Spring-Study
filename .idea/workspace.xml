@@ -6,6 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="36892678-1a94-4a29-9dcb-e8b305ed2080" name="Default Changelist" comment="mybatis attr need to be same">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-10-mybatis/src/main/java/com/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-10-mybatis/src/main/java/com/mapper/UserMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-10-mybatis/src/main/java/com/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-10-mybatis/src/main/java/com/mapper/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-10-mybatis/src/main/java/com/mapper/UserMapperIml2.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-10-mybatis/src/main/java/com/mapper/UserMapperIml2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-10-mybatis/src/main/java/com/mapper/UserMapperImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-10-mybatis/src/main/java/com/mapper/UserMapperImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-10-mybatis/src/main/java/com/pojo/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-10-mybatis/src/main/java/com/pojo/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-10-mybatis/src/main/resources/spring-dao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-10-mybatis/src/main/resources/spring-dao.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-10-mybatis/src/test/java/Mytest.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-10-mybatis/src/test/java/Mytest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-10-mybatis/target/classes/spring-dao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-10-mybatis/target/classes/spring-dao.xml" afterDir="false" />
@@ -66,6 +71,10 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis-spring/2.0.4/mybatis-spring-2.0.4.jar!/org/mybatis/spring/MyBatisExceptionTranslator.class" root0="SKIP_INSPECTION" />
+    <setting file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis-spring/2.0.4/mybatis-spring-2.0.4.jar!/org/mybatis/spring/SqlSessionTemplate.class" root0="SKIP_INSPECTION" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -255,6 +264,7 @@
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/Irving/Desktop/csLearning/java/JavaWeb&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors&quot;,
     &quot;spring.configuration.checksum&quot;: &quot;6baa8887ca75363eff9bbb640d55178c&quot;
   },
   &quot;keyToStringList&quot;: {
@@ -346,7 +356,9 @@
       <workItem from="1663730726366" duration="3941000" />
       <workItem from="1664257927602" duration="10262000" />
       <workItem from="1665451656546" duration="8271000" />
-      <workItem from="1665624738826" duration="1849000" />
+      <workItem from="1665624738826" duration="3515000" />
+      <workItem from="1669801542840" duration="1644000" />
+      <workItem from="1670227512497" duration="3296000" />
     </task>
     <task id="LOCAL-00001" summary="some changes">
       <created>1665469522953</created>
@@ -362,7 +374,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665469697423</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="mybatis attr need to be same">
+      <created>1665627926334</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1665627926334</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
