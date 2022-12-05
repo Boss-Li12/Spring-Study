@@ -5,15 +5,15 @@
 
 <mapper namespace="com.mapper.UserMapper">
     <select id="selectUser" resultType="user">
-        select * from mybatis.user;
+        select * from spring_test.user;
     </select>
 
     <insert id="addUser" parameterType="user">
-        insert into mybatis.user (id, name, pwd) values
+        insert into spring_test.user (id, name, password) values
         (#{id}, #{name}, #{pwd})
     </insert>
 
     <delete id="delete" parameterType="int">
-        delete from mybatis.user where id=#{id}
+        deletes from spring_test.user where id=#{id}
     </delete>
 </mapper>

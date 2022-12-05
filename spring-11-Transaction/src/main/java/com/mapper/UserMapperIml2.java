@@ -9,7 +9,7 @@ import java.util.List;
 public class UserMapperIml2 extends SqlSessionDaoSupport implements UserMapper {
 
     public List<User> selectUser() {
-        User user = new User(6, "long", "zhi");
+        User user = new User(6, "hhhh", "hhhhhhh");
         SqlSession sqlSession = getSqlSession();
         UserMapper mapper = sqlSession.getMapper(UserMapper.class);
         mapper.addUser(user);

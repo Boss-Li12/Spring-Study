@@ -8,15 +8,15 @@
         http://www.springframework.org/schema/tx
         https://www.springframework.org/schema/tx/spring-tx.xsd
         http://www.springframework.org/schema/aop
-        https://www.springframework.org/schema/aop/spring-tx.aop">
+        https://www.springframework.org/schema/aop/spring-aop.xsd">
 
     <!--data source-->
     <bean id="datasource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
         <property name="driverClassName" value="com.mysql.jdbc.Driver"/>
-        <property name="url" value="jdbc:mysql://111.230.212.103:3306/mybatis?userSSL=true&amp;
+        <property name="url" value="jdbc:mysql://47.96.75.130:3306/spring_test?userSSL=true&amp;
                 userUnicode=true&amp;characterEncoding=UTF-8"/>
-        <property name="username" value="root"/>
-        <property name="password" value="hdk123"/>
+        <property name="username" value="lyh"/>
+        <property name="password" value="abAB12"/>
     </bean>
 
     <!--sqlsession-->
